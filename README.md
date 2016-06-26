@@ -7,7 +7,7 @@ you can: wasd around and shoot circles until your memory runs out
 - global `gulp bower babel-cli`
 - begin `git clone` then `cd`
 - install `npm i` then `bower i`
-- run `npm build` then `node .`
+- run `babel src -d lib` then `node .`
 - finally `http://localhost:3000`
 
 ### basically:
