@@ -14,5 +14,9 @@
     "client/components/",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "Matter": "matterjs#^0.10.0",
+    "pixi.js": "^3.0.11"
+  }
 }

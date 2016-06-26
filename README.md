@@ -4,6 +4,7 @@ you can: wasd around and shoot circles until your memory runs out
 ![preview](https://raw.githubusercontent.com/metaheap/box-and-creature/master/box-and-creature.png "preview")
 
 ### start:
+- global `gulp bower babel-cli`
 - begin `git clone` then `cd`
 - install `npm i` then `bower i`
 - run `npm build` then `node .`
