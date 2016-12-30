@@ -1,5 +1,5 @@
 # box and creature
-you can: wasd around and shoot circles until your memory runs out
+you can: shoot circles from within the designated boundries...
 
 ![preview](https://raw.githubusercontent.com/metaheap/box-and-creature/master/box-and-creature.png "preview")
 
