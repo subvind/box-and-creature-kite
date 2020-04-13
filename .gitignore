@@ -1,6 +1,0 @@
-# packages
-/node_modules
-/client/components
-
-# compiled output
-/lib
