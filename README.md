@@ -3,12 +3,37 @@ you can: shoot circles from within the designated boundries...
 
 ![preview](https://raw.githubusercontent.com/metaheap/box-and-creature/master/box-and-creature.png "preview")
 
-### start:
-- global `gulp bower babel-cli`
-- begin `git clone` then `cd`
-- install `npm i` then `bower i`
-- run `babel src -d lib` then `node .`
-- finally `http://localhost:3000`
+### settings:
+- 6tyu: controls window-frame // super peer // leader
+- TDVH: controls main-frame // left peer // follower
+- UGNK: controls time-frame // right peer // follower
+- YABL: controls card-frame // wall
+- redf: controls poke-frame // circles
+
+> note: use shift or caps lock to toggle between settings
+> note: use 7 to toggle window-frame between peers
+> note: use space bar to reset the loop
+
+### foundation
+under the hood, matter.js runs in the browser as a sort of CRDT. first, a super-peer 
+starts a loop by loading the box-and-creature program in their browser. after this, up to
+two other annonymous players are allowed to connect using their own running loops. so, let's
+say there are 3 running loops. Loop A is the "leader" while loops B and C are the
+"followers". A only supervises the situation between B and C until V is achieved. Such that 
+CVB is a secure connection. think about how RAFT functions for a minute. in a grid-locked
+situation messages are sent in a static sort of way; up, left, down, right --> shoot. however,
+when a "grid-locked" situation turns into a scenario where only a select few are dynamic,
+pieces like CRDT and RAFT instantly change the situation; think thats interesting? assume i
+want to build a fun competative game around a "particle-accelartor"; to begin, i'd like to
+send an annonymous message from B to A. 
+
+### situation
+FRED <-- simple <-- is there a race condition?
+CHAD <-- complex <-- what!
+
+### program:
+- begin `http-server . -p 3000`
+- start `http://localhost:3000`
 
 ### basically:
 ```js
