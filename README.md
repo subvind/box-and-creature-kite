@@ -28,8 +28,8 @@ want to build a fun competative game around a "particle-accelartor"; to begin, i
 send an annonymous message from B to A. 
 
 ### situation
-FRED <-- simple <-- is there a race condition?
-CHAD <-- complex <-- what!
+- FRED <-- simple <-- is there a race condition?
+- CHAD <-- complex <-- what!
 
 ### program:
 - begin `http-server . -p 3000`
