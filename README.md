@@ -7,7 +7,7 @@ WELCOME :)
 
 movements between followers are annonymous because they are passed between leaders. these
 "supervisors" control the situation. given enough time movement either halts to a complete
-stop or accelerates into a complete go; the key is somewehere in between. the driving force
+stop or accelerates into a complete go; the trick is to balance in between. the driving force
 behind this system of thought or "cosmos" is physics. that's why we need time --> for
 communicating machine to machine. that's why we need space ... for limits and boundaries.
 
