@@ -55,8 +55,8 @@ CVB is a secure connection. think about how RAFT functions for a minute. in a gr
 situation messages are sent in a static sort of way; up, left, down, right --> shoot. however,
 when a "grid-locked" situation turns into a scenario where only a select few are dynamic,
 pieces like CRDT and RAFT instantly change the situation; think thats interesting? assume i
-want to build a fun competative game around a "particle-accelartor"; to begin, i'd like to
-send an annonymous message from B to A. 
+want to build a fun competative game around a "particle-accelartor"; to begin, i want to
+send an annonymous messages between A, B, and C.
 
 ### situation:
 - FRED <-- simple ... is there a race condition?
