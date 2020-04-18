@@ -9,8 +9,8 @@ WELCOME :)
 some people work on premis while others work from home. the goal is to bridge the gap between
 100% distributed / 100% centralized / 100% distributed <-- 100% decentralized systems. such
 that system (C) {simple: "static" remote grid of pixels} alternates between system (A)
-{complex: "dynamic" local keyboard} while system (B) {normalized: "local" acts as a sort of
-two-way-binding} connects the two.
+{complex: "dynamic" keyboard} while system (B) {normalized: "local" two-way-binding} connects 
+the two.
 ```
 
 ### settings:
