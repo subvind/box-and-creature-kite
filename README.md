@@ -15,8 +15,8 @@ movement is tracked by looping over each peer in the network for requests in a r
 way. when a request is sent from a follower to the leader <-- such as move right <-- a 
 supervisor will then give 1 block of time ... then wait that amount of time ... because
 space and time are interchangable; annonymous is allowed to move 1 position or be still
-for 1 position. this removes the need for encryption because added layers just add lag to
-the system ... speed is key here.
+for 1 position. this removes the need for encryption because additional layers only add
+--> lag to the system ... speed is key here.
 
 
 ![APC](/APC.webp)
