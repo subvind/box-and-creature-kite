@@ -8,8 +8,15 @@ WELCOME :)
 movements between followers are annonymous because they are passed between leaders. these
 "supervisors" control the situation. given enough time movement either halts to a complete
 stop or accelerates into a complete go; the key is somewehere in between. the driving force
-behind this system of thought or "cosmos" is physics. that's why we need time ... for
+behind this system of thought or "cosmos" is physics. that's why we need time --> for
 communicating machine to machine. that's why we need space ... for limits and boundaries.
+
+movement is tracked by looping over each peer in the network for requests in a round robin
+way. when a request is sent from a follower to the leader <-- such as move right <-- a 
+supervisor will then give 1 block of time ... then wait that amount of time ... because
+space and time are interchangable; annonymous is allowed to move 1 position or be still
+for 1 position. this removes the need for encryption because added layers just add lag to
+the system ... speed is key here.
 
 
 ![APC](/APC.webp)
@@ -36,7 +43,7 @@ the two.
 - use ESC to return back to leader
 - use delete to block a peer
 
-### foundation
+### foundation:
 under the hood, matter.js runs in the browser as a sort of CRDT. first, a super-peer 
 starts a loop by loading the box-and-creature program in their browser. after this, up to
 two other annonymous players are allowed to connect using their own running loops. so, let's
@@ -49,7 +56,7 @@ pieces like CRDT and RAFT instantly change the situation; think thats interestin
 want to build a fun competative game around a "particle-accelartor"; to begin, i'd like to
 send an annonymous message from B to A. 
 
-### situation
+### situation:
 - FRED <-- simple <-- is there a race condition?
 - CHAD <-- complex <-- what!
 
