@@ -1,6 +1,6 @@
 # box and creature kite
 you can: shoot circles from within the designated boundries...
-![preview](https://raw.githubusercontent.com/metaheap/box-and-creature/master/box-and-creature.png "preview")
+![preview](https://raw.githubusercontent.com/trabur/box-and-creature-kite/master/PAC.png "preview")
 
 ### algorithm:
 WELCOME :)
@@ -9,7 +9,7 @@ movements between followers are annonymous because they are passed between leade
 "supervisors" control the situation. given enough time movement either halts to a complete
 stop or accelerates into a complete go; the key is somewehere in between. the driving force
 behind this system of thought or "cosmos" is physics. that's why we need time ... for
-communicating machine to machine. that's why we need a space ... for limits and boundries.
+communicating machine to machine. that's why we need space ... for limits and boundries.
 
 
 ![APC](/APC.webp)
