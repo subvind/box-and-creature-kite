@@ -29,9 +29,9 @@ the two.
 ```
 
 ### settings:
-- 6tyu: controls window-frame // super peer // leader
-- TDVH: controls main-frame // left peer // follower
-- UGNK: controls time-frame // right peer // follower
+- 6tyu: controls window-frame // leader // super peer
+- TDVH: controls main-frame // follower // left peer
+- UGNK: controls time-frame // follower // right peer
 - YABL: controls card-frame // wall
 - redf: controls poke-frame // circles
 
@@ -69,7 +69,7 @@ send an annonymous message from B to A.
 ### basically:
 CRDTs are like punchcard programming but not so hands on; holes are poked in a "remote" 
 sort of way. sometimes it's not the biggest poke or the most pokes that wins you the
-game ... it's the position of each piece that matters. my cat may be on to something 
+game // it's the position of each piece that matters. my cat may be on to something 
 here :)
 
 
