@@ -2,6 +2,8 @@
 you can: shoot circles for as long as you follow the rules // TLDR
 ![preview](https://raw.githubusercontent.com/trabur/box-and-creature-kite/master/PAC.png "preview")
 
+Here is a story of an employee who worked at an antique shop. Let's say this worker is named Bob. Well, I'm not 100% sure on the backstory with Bob and his antique motorcycle. However I find it interesting. So Bob has this bike and decides he wants to take the entire thing apart and store it behind his house. Bob completely disassembles the entire machine including handlebars, saddle, fork, wheels, chain, brakes, etc. then proceeds to take each component apart including the brake's screws, chain's links, and even the wheel's hubs & spokes. Down to the bearings. Bob, out in the middle of his backyard, then built a platform. On top of this platform each piece was then placed on a display in some way. Bob then built four walls around his platform and then a roof on top of that. This shed of his had no windows or doors. It was a completely sealed box.
+
 ### algorithm:
 WELCOME :)
 
