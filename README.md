@@ -1,9 +1,10 @@
-# box and creature
+# box and creature kite
 you can: shoot circles from within the designated boundries...
 ![preview](https://raw.githubusercontent.com/metaheap/box-and-creature/master/box-and-creature.png "preview")
 
 ### algorithm:
 WELCOME :)
+control this car looking creature and shoot circles using the matter.js physics engine
 ![APC](/APC.webp)
 ```html
 some people work on premis while others work from home. the goal is to bridge the gap between
