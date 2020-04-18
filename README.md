@@ -56,7 +56,7 @@ situation messages are sent in a static sort of way; up, left, down, right --> s
 when a "grid-locked" situation turns into a scenario where only a select few are dynamic,
 pieces like CRDT and RAFT instantly change the situation; think thats interesting? assume i
 want to build a fun competative game around a "particle-accelartor"; to begin, i want to
-send an annonymous messages between A, B, and C.
+send annonymous messages between A, B, and C.
 
 ### situation:
 - FRED <-- simple ... is there a race condition?
