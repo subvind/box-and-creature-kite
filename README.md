@@ -48,7 +48,7 @@ under the hood, matter.js runs in the browser as a sort of CRDT. first, a super-
 starts a loop by loading the box-and-creature program in their browser. after this, up to
 two other annonymous players are allowed to connect using their own running loops. so, let's
 say there are 3 running loops. Loop A is the "leader" while loops B and C are the
-"followers". A only supervises the situation between B and C until V is achieved. Such that 
+"followers". A only supervises the situation between B and C until V is achieved. such that 
 CVB is a secure connection. think about how RAFT functions for a minute. in a grid-locked
 situation messages are sent in a static sort of way; up, left, down, right --> shoot. however,
 when a "grid-locked" situation turns into a scenario where only a select few are dynamic,
