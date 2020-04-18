@@ -68,8 +68,8 @@ send an annonymous message from B to A.
 
 ### basically:
 CRDTs are like punchcard programming but not so hands on; holes are poked in a "remote" 
-sort of way. Sometimes it's not the biggest poke or the most pokes that wins you the
-game ... it's the position of each piece that matters. My cat may be on to something 
+sort of way. sometimes it's not the biggest poke or the most pokes that wins you the
+game ... it's the position of each piece that matters. my cat may be on to something 
 here :)
 
 
