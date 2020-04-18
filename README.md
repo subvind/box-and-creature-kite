@@ -22,7 +22,7 @@ the system ... speed is key here.
 ![APC](/APC.webp)
 ```html
 some people work on-premises while others work from home. the goal is to bridge the gap between
-100% distributed / 100% centralized / 100% distributed <-- 100% decentralized systems. such
+100% distributed / 100% centralized / 100% distributed <-- 100% decentralized systems ... such
 that system (C) {simple: "static" remote grid of pixels} alternates between system (A)
 {complex: "dynamic" keyboard} while system (B) {normalized: "local" two-way-binding} connects 
 the two.
