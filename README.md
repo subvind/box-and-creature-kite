@@ -4,7 +4,14 @@ you can: shoot circles from within the designated boundries...
 
 ### algorithm:
 WELCOME :)
-control this car looking creature and shoot circles using the matter.js physics engine
+
+movements between followers are annonymous because they are passed between leaders. these
+"supervisors" control the situation. given enough time movement either halts to a complete
+stop or accelerates into a complete go; the key is somewehere in between. the driving force
+behind this system of thought or "cosmos" is physics. that's why we need time ... for
+communicating machine to machine. that's why we need a space ... for limits and boundries.
+
+
 ![APC](/APC.webp)
 ```html
 some people work on premis while others work from home. the goal is to bridge the gap between
