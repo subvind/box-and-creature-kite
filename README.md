@@ -30,10 +30,10 @@ the two.
 
 ### settings:
 - 6tyu: controls window-frame // leader // super peer
-- TDVH: controls main-frame // follower // left peer
-- UGNK: controls time-frame // follower // right peer
-- YABL: controls card-frame // wall
-- redf: controls poke-frame // circles
+- wasd: controls main-frame // follower // left peer
+- fcvb: controls time-frame // follower // right peer
+- ^<v>: controls card-frame // wall
+- lop;: controls poke-frame // circles
 
 ### notes:
 - press shift or caps-lock to toggle between settings
