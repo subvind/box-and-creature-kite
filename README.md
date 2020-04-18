@@ -71,9 +71,9 @@ CRDTs are like punchcard programming but not so hands on; holes are poked in a "
 sort of way. Sometimes it's not the biggest poke or the most pokes that wins you the
 game ... it's the position of each piece that matters. My cat may be on to something 
 here :)
+
+
 ![ABC](/ABC.png)
-
-
 ```js
 Game.initControls = function (game) {
   var mouseConstraint = game.mouseConstraint;
