@@ -36,12 +36,14 @@ the two.
 - redf: controls poke-frame // circles
 
 ### notes:
-- use shift or caps lock to toggle between settings
-- use 7 to toggle window-frame between peers
-- use space bar to reset the loop
-- use return to SSH into a follower
-- use ESC to return back to leader
-- use delete to block a peer
+- press shift or caps-lock to toggle between settings
+- press 7 to toggle window-frame between peers
+- press command+click to SSH into a follower as annonymous
+- press space-bar to reset the loop
+- press control+click to SSH into a leader as annonymous
+- press delete to block a peer
+- press return to connect a peer
+- press ESC to jump out of SSH tunnel
 
 ### foundation:
 under the hood, matter.js runs in the browser as a sort of CRDT. first, a super-peer 
