@@ -32,8 +32,8 @@ the two.
 - 6tyu: controls window-frame // leader // super peer
 - wasd: controls main-frame // follower // left peer
 - fcvb: controls time-frame // follower // right peer
-- ^<v>: controls card-frame // wall
-- lop;: controls poke-frame // circles
+- ^^^^: controls card-frame // wall
+- loop: controls poke-frame // circles
 
 ### notes:
 - press shift or caps-lock to toggle between settings
