@@ -43,7 +43,7 @@ the two.
 - press control+click to SSH into a leader as annonymous
 - press delete to block a peer
 - press return to connect a peer
-- press ESC to jump out of SSH tunnel
+- press ESC to back out of SSH tunnel
 
 ### foundation:
 under the hood, matter.js runs in the browser as a sort of CRDT. first, a super-peer 
