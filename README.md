@@ -22,7 +22,7 @@ for 1 position. this removes the need for encryption because additional layers o
 
 ![APC](/APC.webp)
 
-some people work on-premises while others work from home. the goal is to bridge the gap between --> 100% distributed / 100% centralized / 100% distributed ... 100% decentralized systems. 
+some people work on-premises while others work from home. the challange that BACK presents is --> 100% distributed / 100% centralized / 100% distributed ... 100% decentralized systems. 
 ```html
 such that:
 system (A) {ground: "static" two-way-binding STRING} connects to
