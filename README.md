@@ -66,7 +66,7 @@ competative punch card programming. so, every player's box is one-way-binded to 
 coordinates using redis' GEO commands. all of the objects surrounding the box are tracked
 by matter.js using vertors { x: 0, y: 0 }. websockets transmit all game activity to a backend
 thats running an Erlang VM (known for running low-latency, distributed and fault-tolerant
-systems). this just make sure messages transmit between each player in the game. the wall
+systems). this just makes sure messages are transmit between each player in the game. the wall
 itself has a trigger set on it that when activated will teleport the offending object right
 into another players box. that means information can be relayed --> from checkpoint --> to
 checkpoint --> to checkpoint --> etc.
