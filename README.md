@@ -39,6 +39,16 @@ here :)
 ![ABC](/ABC.png)
 
 ### game:
+a leaderboard keeps supervisors in line. the leader decides how games are matched up. let's
+say two players (Bob and Carl) enter a supervisors game (Alice). first, A will round robin
+B and C for input controls. such as // shooting ... rotation --> movement. the physics are
+then played out on A's game loop, object positions recorded, then all of A's coordinates are
+sent to B's and C's game loop; if A is recording input from B and C (60 frames per second) 
+this would give both B and C intervals of 16ms to respond back. this allows both annonymous
+parties to communicate with each other on a level playing field. keeping things secret
+between B and C relies on A's ability to maintain secrecy; however, there is nothing to 
+stop C and B from sharing information between each other.
+
 
 
 ### settings:
@@ -79,7 +89,7 @@ send annonymous messages between A, B, and C.
 - start `http://localhost:3000`
 
 ### code:
-Here is a brief explination of BACK in "art-code" form; to help explain how the overall mechanics works.
+Here is a brief explination of BACK in "art-code" form; to help explain how the overall mechanics work.
 ```js
 Game.initControls = function (game) {
   var mouseConstraint = game.mouseConstraint;
