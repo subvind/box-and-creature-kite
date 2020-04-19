@@ -85,8 +85,8 @@ Game.initControls = function (game) {
   var mouseConstraint = game.mouseConstraint;
   var viewportCenter = game.viewportCenter;
   var player = game.player;
-  player.rotation = 0; // 10 values at a time
   player.shooting = false; // 2 values at a time
+  player.rotation = 0; // 10 values at a time
   player.movement = { // 4 values at a time
     up: false,
     left: false,
