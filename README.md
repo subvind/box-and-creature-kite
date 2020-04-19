@@ -30,6 +30,17 @@ system (B) {simple: "dynamic" three-way-binding KITE} conntects to
 system (C) {complex: "local/remote" four-way-binding WIND}
 ```
 
+### basically:
+CRDTs are like punchcard programming but not so hands on; holes are poked in a "remote" 
+sort of way. sometimes it's not the biggest poke or the most pokes that wins you the
+game // it's the position of each piece that matters. my cat may be on to something 
+here :)
+
+![ABC](/ABC.png)
+
+### game:
+
+
 ### settings:
 - 6tyu: controls window-frame // leader // super peer
 - wasd: controls main-frame // follower // left peer
@@ -38,7 +49,6 @@ system (C) {complex: "local/remote" four-way-binding WIND}
 - loop: controls poke-frame // circles
 
 ### notes:
-- press shift or caps-lock to toggle between settings
 - press 7 to toggle window-frame between peers
 - press command+click to SSH into a follower as annonymous
 - press space-bar to reset the loop
@@ -68,22 +78,16 @@ send annonymous messages between A, B, and C.
 - begin `http-server . -p 3000`
 - start `http://localhost:3000`
 
-### basically:
-CRDTs are like punchcard programming but not so hands on; holes are poked in a "remote" 
-sort of way. sometimes it's not the biggest poke or the most pokes that wins you the
-game // it's the position of each piece that matters. my cat may be on to something 
-here :)
-
-
-![ABC](/ABC.png)
+### code:
+Here is a brief explination of BACK in "art-code" form; to help explain how the overall mechanics works.
 ```js
 Game.initControls = function (game) {
   var mouseConstraint = game.mouseConstraint;
   var viewportCenter = game.viewportCenter;
   var player = game.player;
-  player.rotation = 0; // number
-  player.shooting = false; // boolean
-  player.movement = {
+  player.rotation = 0; // 10 values at a time
+  player.shooting = false; // 2 values at a time
+  player.movement = { // 4 values at a time
     up: false,
     left: false,
     down: false,
