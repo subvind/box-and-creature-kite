@@ -55,7 +55,10 @@ particular is that of annonymous' called a "website", picture this for a moment,
 field of kites exists a kite that does not require ground control (GC). it has no "string" or
 "backdoor" or "password" that allows other users to take advantage of. it is the kite that
 gives wind to the other kites in the field. which is true because this field is contained
-within a leak proof loop; nothing gets out of the system. not even kites.
+within a leak proof loop; nothing gets out of the system. not even kites. you can think of
+this "modern" loop as being one of antique Bob's projects out in the backyard behind
+the shed.
+
 
 
 
