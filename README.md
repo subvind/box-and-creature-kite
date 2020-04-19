@@ -23,11 +23,12 @@ for 1 position. this removes the need for encryption because additional layers o
 
 ![APC](/APC.webp)
 ```html
-some people work on-premises while others work from home. the goal is to bridge the gap between
-100% distributed / 100% centralized / 100% distributed <-- 100% decentralized systems ... such
-that system (C) {simple: "static" remote grid of pixels} alternates between system (A)
-{complex: "dynamic" keyboard} while system (B) {normalized: "local" two-way-binding} connects 
-the two.
+some people work on-premises while others work from home ... the goal is to bridge the gap between 100% distributed / 100% centralized / 100% distributed <-- 100% decentralized systems. 
+
+such that:
+system (A) {simple: "dynamic" three-way-binding PIXEL} alternates between 
+system (C) {complex: "local" four-way-binding DNA} while 
+system (B) {normalized: "static" two-way-binding PIPE} connects the two.
 ```
 
 ### settings:
