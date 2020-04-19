@@ -47,7 +47,7 @@ sent to B's and C's game loop; if A is recording input from B and C (60 frames p
 this would give both B and C intervals of 16ms to respond back. this allows both annonymous
 parties to communicate with each other on a level playing field. keeping things secret
 between B and C relies on A's ability to maintain secrecy; however, there is nothing to 
-stop C and B from sharing information between each other.
+stop B and C from sharing information between each other.
 
 
 
