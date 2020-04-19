@@ -20,8 +20,8 @@ space and time are interchangable; annonymous is allowed to move 1 position or b
 for 1 position. this removes the need for encryption because additional layers only add
 --> lag to the system ... where speed is key here.
 
-
 ![APC](/APC.webp)
+
 some people work on-premises while others work from home. the goal is to bridge the gap between --> 100% distributed / 100% centralized / 100% distributed ... 100% decentralized systems. 
 ```html
 such that:
