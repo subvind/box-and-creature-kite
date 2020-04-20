@@ -16,8 +16,8 @@ communicating machine to machine. that's why we need space --> for limits and bo
 movement is tracked by looping over each peer in the network for requests in a round robin
 way. when a request is sent from a follower to the leader <-- such as move right <-- a 
 supervisor will then give 1 block of time ... then wait that amount of time ... because
-space and time are interchangable; annonymous is allowed to move 1 position or be still
-for 1 position. this removes the need for encryption because additional layers only add
+space and time are interchangable; annonymous is allowed to move one position or be still
+for one position. this removes the need for encryption because additional layers only add
 <--> lag to the system where speed is key .... here.
 
 ![APC](/APC.webp)
