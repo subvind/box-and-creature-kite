@@ -15,10 +15,11 @@ communicating machine to machine. that's why we need space --> for limits and bo
 
 movement is tracked by looping over each peer in the network for requests in a round robin
 way. when a request is sent from a follower to the leader <-- such as move right <-- a 
-supervisor will allocate 1 block of memory ... wait until GOTO statement completes ... because
-space and time are interchangable; annonymous is allowed to move one position or be still
-for one position. this removes the need for encryption because additional layers only add
-<--> lag to the system where speed is key .... here.
+supervisor will allocate 1 block of memory ... then wait until a GOTO statement completes
+... this is not harmful to leaders because space and time are interchangable for them; 
+therefor followers are allowed to "jump" positions or remain in their current state. this
+removes the need for encryption because additional layers only add <--> lag to the 
+system where speed is key .... here.
 
 ![APC](/APC.webp)
 
