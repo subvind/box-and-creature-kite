@@ -109,8 +109,9 @@ want to build a fun competative game around a "particle-accelartor"; to begin, i
 send annonymous messages between A, B, and C.
 
 ### situation:
-- FRED <-- simple ... is there a race condition?
-- CHAD <-- complex ... what!
+- SELF <-- ground ... cool.
+- FRED <-- simple ... what?
+- CHAD <-- complex ... race!
 
 ### program:
 - begin `http-server . -p 3000`
