@@ -116,7 +116,7 @@ say there are 3 running loops. loop A is the "leader" while loops B and C are th
 "followers". A only supervises the situation between B and C until V is achieved. such that 
 CVB is a secure connection. think about how RAFT functions for a minute. in a grid-locked
 situation messages are sent in a static sort of way; up, left, down, right ---- shoot. however,
-when a "grid-locked" situation turns into a scenario where only a select few are dynamic,
+when a "grid-locked" situation turns into a scenario where only a select few are dynamic ~~~~
 pieces like MATH and CRDT instantly change the situation; think thats interesting? assume i
 want to build a fun competative game around a "particle-accelartor"; to begin, i want to
 send annonymous messages between A, B, and C.
