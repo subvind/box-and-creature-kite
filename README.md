@@ -85,7 +85,7 @@ followers. this just makes sure the game's physics logic stays consistant.
 - 6tyu --> controls loop-frame ... console // moves creature around: window
 - wasd --> controls time-frame ... tunnel // open and close: AF <--> BF
 - fcvb --> controls wall-frame ... terminal // command line interface: `<AF>CLI</AF>`
-- ^^^^ --> controls main-frame ... shell // graphical user interface: HTML
+- ↑←↓→ --> controls main-frame ... shell // graphical user interface: HTML
 
 ### notes:
 - press command+click to SSH into a follower as annonymous
