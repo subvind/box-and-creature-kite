@@ -14,7 +14,7 @@ behind this system of thought or "cosmos" is physics. that's why we need time ..
 communicating machine to machine. that's why we need space --> for limits and boundaries.
 
 movement is tracked by looping over each peer in the network for requests in a round robin
-way. when a request is sent from a follower to the leader <-- such as move right <-- a 
+way. when a request is sent from a follower to the leader <-- such as move left <-- a 
 supervisor will allocate 1 block of memory ... then wait until a GOTO statement completes
 ... this is not harmful to leaders because space and time are interchangable for them; 
 therefore followers are allowed to "jump" positions or remain in their current state. this
