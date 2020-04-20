@@ -118,7 +118,7 @@ send annonymous messages between A, B, and C.
 - start `http://localhost:3000`
 
 ### code:
-Here is a brief explination of BACK in "art-code" form; to help explain how the overall mechanics work.
+here is a brief explination of BACK in "ART" form; to help explain how the overall mechanics work.
 ```js
 Game.initControls = function (game) {
   var mouseConstraint = game.mouseConstraint;
