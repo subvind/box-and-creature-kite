@@ -75,9 +75,9 @@ we call these four walls "frames". each player is allowed up to 2 frames at once
 alpha-frame (AF) and beta-frame (BF). for reference, Austin is located at latitude 30.2671509 
 and longitude -97.7430573. when a player spawns into the game, such as Alice, she is aloud to
 open a connection between her current frame AF and another frame BF that is directly above,
-below, or beside AF. all requests to open BF require a +1 or -1 operation to latitude and 
-longitude to A's current AF. the connection can be closed by pressing ESC then whichever box
-A isn't in will be whiped from browser memory. when a frame is contested by more than 1 player
+below, or beside AF. all requests to open BF require a +1 or -1 operation to either latitude or 
+longitude from A's current AF. the connection can be closed by pressing ESC then whichever box
+A isn't in will be wiped from browser memory. when a frame is contested by more than 1 player
 a RAFT consensus algorithm is run in order to elect a leader and assign every one else as 
 followers. this just makes sure the game's physics logic stays consistant.
 
