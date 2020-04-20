@@ -41,7 +41,7 @@ replicated datatype (CRDT). next you will want to stack each message ontop of on
 such that it does not collapse under it's own weight. a nice stack might look like 3 ontop 
 of 4, then 2 ontop of 3, and then 1 ontop of 2; which is a simple stack that holds up under
 it's own weight agaist gravity. if you've ever seen the movie "cube" you might also be aware
-of stacks such as 4 of top of 4, on top of 4, on top of 4; which is a simple box that holds
+of stacks such as 4 on top of 4, on top of 4, on top of 4; which is a simple box that holds
 up under it's own weight with gravity. 
 
 I kind of like to think of it as punchcard programming but not so hands on; because holes 
