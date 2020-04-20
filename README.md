@@ -82,10 +82,10 @@ a RAFT consensus algorithm is run in order to elect a leader and assign every on
 followers. this just makes sure the game's physics logic stays consistant.
 
 ### settings:
-- 6tyu: controls window-frame ... console // moves creature around
-- wasd: controls free-frame ... tunnel // open and close: AF <--> BF
-- fcvb: controls sudo-frame ... shell // command line interface: `<AF></AF>`
-- ^^^^: controls main-frame ...
+- 6tyu --> controls loop-frame ... console // moves creature around: window
+- wasd --> controls time-frame ... tunnel // open and close: AF <--> BF
+- fcvb --> controls root-frame ... terminal // command line interface: `<AF>CLI</AF>`
+- ^^^^ --> controls main-frame ... shell // graphical user interface: HTML
 
 ### notes:
 - press command+click to SSH into a follower as annonymous
