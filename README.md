@@ -15,7 +15,7 @@ communicating machine to machine. that's why we need space --> for limits and bo
 
 movement is tracked by looping over each peer in the network for requests in a round robin
 way. when a request is sent from a follower to the leader <-- such as move left <-- a 
-supervisor will allocate 1 block of memory ... then wait until a GOTO statement completes
+supervisor will allocate 1 block of memory ... then wait until a JUMP statement completes
 ... this is not harmful to leaders because space and time are interchangable for them; 
 therefore followers are allowed to "jump" positions or remain in their current state. this
 removes the need for encryption because additional layers only add <--> lag to the 
