@@ -53,7 +53,7 @@ to something here :)
 
 ### game:
 a leaderboard keeps supervisors in line. the leader decides how games are matched up. let's
-say two players (Bob and Carl) enter a supervisors game (Alice). first, A will round robin
+say two players (Bob and Carl) enter a peer's game (Alice). first, A will round robin
 B and C for input controls. such as // shooting ... rotation --> movement. the physics are
 played out on A's game loop, object positions are recorded, then all of A's coordinates are
 sent to B's and C's game loop; if A is recording input from B and C (60 frames per second) 
@@ -109,11 +109,11 @@ followers. this just makes sure the game's physics logic stays consistant.
 - press ESC to back out of SSH tunnel
 
 ### foundation:
-behind the curtains; matter.js runs in the browser as a sort of Kernel. first, a super-peer 
+behind the curtains; matter.js runs in the browser as a sort of Kernel. first, a lead-peer 
 starts a loop by loading the box-and-creature-kite program in their browser. after this, up to
 two other annonymous players are allowed to connect using their own running loops. so, let's
 say there are 3 running loops. loop A is the "leader" while loops B and C are the
-"followers". A only supervises the situation between B and C until V is achieved. such that 
+"followers". A only monitors the situation between B and C until V is achieved. such that 
 CVB is a secure connection. think about how RAFT functions for a minute. in a grid-locked
 situation messages are sent in a static sort of way; up, left, down, right ---- shoot. however,
 when a "grid-locked" situation turns into a scenario where only a select few are dynamic ~~~~
