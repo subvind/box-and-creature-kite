@@ -71,7 +71,7 @@ wall itself has a trigger set on it that when activated will teleport the offend
 right into another players box. that means information can be relayed --> from checkpoint -->
 to checkpoint --> to checkpoint --> etc.
 
-we call these four walls "frames". each player is allowed up to 2 frames at once; for example,
+we call these four walls "frames" :) each player is allowed up to 2 frames at once; for example,
 alpha-frame (AF) and beta-frame (BF). for reference, Austin is located at latitude 30.2671509 
 and longitude -97.7430573. when a player spawns into the game, such as Alice, she is aloud to
 open a connection between her current frame AF and another frame BF that is directly above,
@@ -82,14 +82,12 @@ a RAFT consensus algorithm is run in order to elect a leader and assign every on
 followers. this just makes sure the game's physics logic stays consistant.
 
 ### settings:
-- 6tyu: controls window-frame // leader // super peer
-- wasd: controls main-frame // follower // left peer
-- fcvb: controls time-frame // follower // right peer
-- ^^^^: controls card-frame // wall
-- loop: controls poke-frame // circles
+- 6tyu: controls window-frame ... console // moves creature around
+- wasd: controls free-frame ... tunnel // open and close: AF <--> BF
+- fcvb: controls sudo-frame ... shell // command line interface: `<AF></AF>`
+- ^^^^: controls main-frame ...
 
 ### notes:
-- press 7 to toggle window-frame between peers
 - press command+click to SSH into a follower as annonymous
 - press space-bar to reset the loop
 - press control+click to SSH into a leader as annonymous
