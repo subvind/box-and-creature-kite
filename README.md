@@ -44,7 +44,7 @@ it's own weight agaist gravity. if you've ever seen the movie "cube" you might a
 of stacks such as 4 on top of 4, on top of 4, on top of 4; which is a simple box that holds
 up under it's own weight with gravity. 
 
-I kind of like to think of it as punchcard programming but not so hands on; because holes 
+i kind of like to think of it as punchcard programming but not so hands on; because holes 
 are poked in a "remote" sort of way. sometimes it's not the biggest poke or the most pokes
 that wins you the game // it's the position of each piece that matters. my cat may be on
 to something here :)
