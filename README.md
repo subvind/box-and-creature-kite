@@ -96,7 +96,7 @@ followers. this just makes sure the game's physics logic stays consistant.
 
 ### system settings:
 - 6tyu --> controls loop-frame ... console // moves creature around: window
-- wasd --> controls time-frame ... tunnel // open and close: AF <--> BF
+- wasd --> controls time-frame ... tunnel // open and close: AF = BF
 - fcvb --> controls wall-frame ... terminal // command line interface: `<AF>CLI</AF>`
 - ↑←↓→ --> controls main-frame ... shell // graphical user interface: HTML
 
