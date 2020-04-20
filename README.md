@@ -37,7 +37,7 @@ ever it is there are only so many options to choose from. the goal is to build s
 that is only known to the user and kept secret between everyone else; yet, while like any key 
 and lock the building only functions with both present. think: MATH (human at machine). so,
 let's say we already have 4 letters layed down as the foundation; for example: conflict-free
-replicated datatype (CRDT). next you will want to stack each message ontop of one another
+replicated datatype (CRDT). next you will want to stack each message on top of one another
 such that it does not collapse under it's own weight. a nice stack might look like 3 on top 
 of 4, then 2 on top of 3, and then 1 on top of 2; which is a simple pyramid that holds up under
 it's own weight agaist gravity. if you've ever seen the movie "cube" you might also be aware
