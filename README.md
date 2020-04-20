@@ -109,10 +109,10 @@ followers. this just makes sure the game's physics logic stays consistant.
 - press ESC to back out of SSH tunnel
 
 ### foundation:
-under the hood, matter.js runs in the browser as a sort of CRDT. first, a super-peer 
+behind the curtains; matter.js runs in the browser as a sort of Kernel. first, a super-peer 
 starts a loop by loading the box-and-creature-kite program in their browser. after this, up to
 two other annonymous players are allowed to connect using their own running loops. so, let's
-say there are 3 running loops. Loop A is the "leader" while loops B and C are the
+say there are 3 running loops. loop A is the "leader" while loops B and C are the
 "followers". A only supervises the situation between B and C until V is achieved. such that 
 CVB is a secure connection. think about how RAFT functions for a minute. in a grid-locked
 situation messages are sent in a static sort of way; up, left, down, right ---- shoot. however,
