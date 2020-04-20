@@ -32,10 +32,22 @@ system (C) {complex: "local/remote" four-way-binding WIND}
 ```
 
 ### basically:
-CRDTs are like punchcard programming but not so hands on; holes are poked in a "remote" 
-sort of way. sometimes it's not the biggest poke or the most pokes that wins you the
-game // it's the position of each piece that matters. my cat may be on to something 
-here :)
+pick any 1 letter message, pick any 2 letter message, pick any 3 letter message, etc. what
+ever it is there are only so many options to choose from. the goal is to build something
+that is only known to the user and kept secret between everyone else; yet, while like a key 
+and lock the building only functions with both present. think: MATH (human at machine). so,
+let's say we already have 4 letters layed down as the foundation; for example: conflict-free
+replicated datatype (CRDT). next you will want to stack each message ontop of one another
+such that it does not collapse under it's own weight. a nice stack might look like 3 ontop 
+of 4, then 2 ontop of 3, and then 1 ontop of 2; which is a simple stack that holds up under
+it's own weight agaist gravity. if you've ever seen the movie "cube" you might also be aware
+of stacks such as 4 of top of 4, on top of 4, on top of 4; which is a simple box that holds
+up under it's own weight with gravity. 
+
+I kind of like to think of it as punchcard programming but not so hands on; because holes 
+are poked in a "remote" sort of way. sometimes it's not the biggest poke or the most pokes
+that wins you the game // it's the position of each piece that matters. my cat may be on
+to something here :)
 
 ![ABC](/ABC.png)
 
