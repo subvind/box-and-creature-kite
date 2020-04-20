@@ -17,7 +17,7 @@ movement is tracked by looping over each peer in the network for requests in a r
 way. when a request is sent from a follower to the leader <-- such as move right <-- a 
 supervisor will allocate 1 block of memory ... then wait until a GOTO statement completes
 ... this is not harmful to leaders because space and time are interchangable for them; 
-therefor followers are allowed to "jump" positions or remain in their current state. this
+therefore followers are allowed to "jump" positions or remain in their current state. this
 removes the need for encryption because additional layers only add <--> lag to the 
 system where speed is key .... here.
 
