@@ -10,8 +10,8 @@ Here is a story of an employee who worked at an antique shop. Let's say this wor
 movements between followers are annonymous because they are passed between leaders. these
 "supervisors" control the situation. given enough time movement either halts to a complete
 stop or accelerates into a complete go; the trick is to balance in between. the driving force
-behind this system of thought or "cosmos" is physics. that's why we need time --> for
-communicating machine to machine. that's why we need space ... for limits and boundaries.
+behind this system of thought or "cosmos" is physics. that's why we need time ... for
+communicating machine to machine. that's why we need space --> for limits and boundaries.
 
 movement is tracked by looping over each peer in the network for requests in a round robin
 way. when a request is sent from a follower to the leader <-- such as move right <-- a 
