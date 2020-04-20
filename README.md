@@ -73,7 +73,7 @@ this "modern" loop as being another one of antique Bob's projects out in the bac
 perhaps inside one of the many sheds he has built.
 
 one thing in particular about the game is the wall that surrounds each creature. this is going
-to get technical. the database behind this game system ... redis: is defined as being --> a
+to get technical. the database behind this game system ... redis --> is defined as being a
 "Remote Dictionary Server" // which just sounds like the ultimate storage for peer-to-peer 
 competative punch card programming. so, every player's box is one-way-binded to geospatial
 coordinates using redis' GEO commands. all of the objects surrounding the box are tracked
