@@ -11,8 +11,8 @@ Bob likes to break the AI algo with his garbage truck.
 - begin `http-server . -p 3000`
 - start `http://localhost:3000`
 
-### code:
-here is a brief explination of BACK in "ART" form; to help explain how the overall mechanics work.
+### code
+Bob's mechanics.
 ```js
 Game.initControls = function (game) {
   var mouseConstraint = game.mouseConstraint;
